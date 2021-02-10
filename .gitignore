@@ -1,0 +1,14 @@
+# Jupyter cruff
+**/.ipynb_checkpoints/
+__pycache__
+
+
+# Ignore data files folders
+run_notes.txt
+Data/
+
+# Ignore saved AD models directories
+/AnomalyDetect/**/models
+
+# Don't know what this is
+.DS_Store
