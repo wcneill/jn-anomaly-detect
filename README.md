@@ -1,10 +1,8 @@
 # Anomaly Detection.
-Research and experimentation with implementing anomaly detection with benchmark datasets and ICEWS data.
+Implementation and benchmarking of the Enc-Dec-AD model derived from the paper by Malhotra et. al., found here: https://arxiv.org/pdf/1607.00148.pdf
 
 ## Repo Structure:
 Each benchmark dataset gets its own folder `AD_<Benchmark Name>/`. Within each benchmark directory is a set of notebooks. Each notebook contains a different approach to anomaly detection applied to the benchmark defined for that folder. 
-
-The ICEWS dataset is also included, but has it's own README. 
 
 ## Python Utility Packages:
 The folders `models` and `util` python packages for use in AD. 
